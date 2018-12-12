@@ -39,11 +39,11 @@ Import the header component macro place it in the `{% block header %}`and provid
       }) }}
     {% endblock %}
 
-An example of this can be seen in the [blank question page](/docs/templates/question).
+An example of this can be seen in the [blank question page](/docs/examples/template-question-page-blank) template.
 
 ## Add a phase banner
 
-Import the phase-banner component and supply tag and feedback text. The phase banner must be inside a `{% block beforeContent %}`.
+Import the phase-banner component and supply tag and feedback text.
 
 ### How to include an Alpha banner
 
@@ -53,7 +53,7 @@ Import the phase-banner component and supply tag and feedback text. The phase ba
       tag: {
         text: "alpha"
       },
-      html: 'This is a new service - your <a href="#" class="govuk-link">feedback</a> will help us to improve it.'
+      html: "This is a new service - your <a href="#" class="govuk-link">feedback</a> will help us to improve it."
     }) }}
 
 ### How to include a Beta banner
@@ -64,5 +64,5 @@ Import the phase-banner component and supply tag and feedback text. The phase ba
       tag: {
         text: "beta"
       },
-      html: 'This is a new service - your <a href="#" class="govuk-link">feedback</a> will help us to improve it.'
+      html: "This is a new service - your <a href="#" class="govuk-link">feedback</a> will help us to improve it."
     }) }}
